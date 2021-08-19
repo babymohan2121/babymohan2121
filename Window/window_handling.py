@@ -2,6 +2,7 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Test_MultiWindowTest:
@@ -39,6 +40,8 @@ class Test_MultiWindowTest:
         # click the link in the parent window
         driver.find_element(By.ID,'secondajaxbutton').click()
         time.sleep(10)
+
+
 
 r=Test_MultiWindowTest()
 r.test_multiWindowTest()

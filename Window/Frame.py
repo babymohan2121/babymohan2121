@@ -25,5 +25,6 @@ class Frame:
 
         time.sleep(10)
 
+
 a=Frame()
 a.frame()
